@@ -5,8 +5,11 @@ var Main = (props) => {
   return (
       <div>
         <Nav/>
-        <p> My Timer App </p>
-        {props.children}
+        <div className="row">
+          <div className="column small-centered mediu-6 large-4">
+            {props.children}
+          </div>
+        </div>
       </div>
   );
 }
